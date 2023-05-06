@@ -8,7 +8,7 @@
 /* Home */
 
 #home::before {
-    background: url(./img/back-phone.webp) no-repeat center center/cover;
+    background: url(/img/back-phone.webp) no-repeat center center/cover;
 }
 
 /* Head */
@@ -37,11 +37,11 @@
 /* Portfolio */
 
 #portfolio {
-    background-color: #0c0d3b;
+    background-color: #0c0d3bda;
 }
 
 /* Footer */
 
 #contact {
-    background-color: #0c0d3b;
+    background-color: #0c0d3bda;
 }
