@@ -6,14 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Thiago WebSite</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+        <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav class="navbar">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Portifolio</a></li>
-                <li><a href="#">Contate-me</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#portfolio">Portifolio</a></li>
+                <li><a href="#services">Habilidades</a></li>
             </ul>
         </nav>
 
@@ -23,27 +29,29 @@
                     Thiago Santos <br />
                     Desenvolvedor de Software
                 </h1>
-                <button class="btn">Contate-me</button>
+                <!-- <button class="btn">
+                 Contate-me
+                </button> -->
+                <a class="btn" href="#contact">CONTATO</a>
             </div>
         </section>
 
         <section id="about">
             <h1 class="head">Sobre Mim</h1>
             <div id="pic">
-                <img src="/img/profile-pic (8).png" alt="" />
+                <img src="/img/profile-pic (8).png" alt="minha imagem" />
                 <div id="intro">
                     <h2>Thiago Santos</h2>
                     <p>
-                        Olá! Meu nome é Thiago Santos, nasci em Ceilândia/DF e
-                        sou Desenvolvedor de Software, estou cursando o curso
-                        superior em Análise e Desenvolvimento de Sistemas na
+                        Olá! Me chamo Thiago Santos, nasci em Ceilândia/DF e
+                        sou Desenvolvedor de Software, atualmente cursando Análise e Desenvolvimento de Sistemas na
                         Universidade Paulista - UNIP, nasci em 1995 e sou
                         natural de Brasília. Sempre Gostei muito de desafios,
                         tanto profissionalmente quanto em tarefas que eu mesmo
                         me empregava, fico sempre motivado em achar soluções
                         simples mas eficazes em resolver problemas, então
                         percebi que isso poderia fazer parte da minha profissão.
-                        A partir de 2021 comecei então a estudar e me
+                        A partir de 2020 comecei então a estudar e me
                         especializar, iniciando assim minha carreira nesse
                         imenso mundo da programação. Com o foco em ampliar e
                         desenvolver meus conhecimentos, tenho me aventurado em
@@ -54,5 +62,109 @@
                 </div>
             </div>
         </section>
+
+        <section id="portfolio">
+            <h1 class="head">PORTFOLIO</h1>
+            <!-- <div class="gallery">
+                <img src="/img/anotacoes.jpg" alt="" />
+                <img src="/img/estudos.jpg" alt="" />
+                <img src="/img/linguagens.jpg" alt="" />
+                <img src="/img/livros.jpg" alt="" />
+                <img src="/img/notebook.jpg" alt="" />
+                <img src="/img/programacao.jpg" alt="" />
+            </div> -->
+
+            <div class="gallery">
+                <a href="#"
+                    ><img src="/img/anotacoes.jpg" alt="projetos portifolio" />
+                    <p>Sistema Bancário</p></a
+                >
+                <a href="#"
+                    ><img src="/img/estudos.jpg" alt="projetos portifolio" />
+                    <p>Em Construção</p></a
+                >
+                <a href="#"
+                    ><img src="/img/linguagens.jpg" alt="projetos portifolio" />
+                    <p>Em Construção</p></a
+                >
+                <a href="#"
+                    ><img src="/img/livros.jpg" alt="projetos portifolio" />
+                    <p>Em Construção</p></a
+                >
+                <a href="#"
+                    ><img src="/img/notebook.jpg" alt="projetos portifolio" />
+                    <p>Em Construção</p></a
+                >
+                <a href="#"
+                    ><img src="/img/programacao.jpg" alt="projetos portifolio" />
+                    <p>Em Construção</p></a
+                >
+            </div>
+        </section>
+
+        <section id="services">
+            <h1 class="head">SKILS</h1>
+            <div class="row">
+                <div class="box">
+                    <img src="/img/bxl-angular.svg" alt="logo angular" />
+                    <h1 class="head">Website Design</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ducimus reprehenderit saepe rem ratione et.
+                        Explicabo tenetur veritatis iusto necessitatibus dolore
+                        officia doloribus enim eius saepe laudantium cum
+                        maiores, est natus!
+                    </p>
+                </div>
+
+                <div class="box">
+                    <img src="/img/bxl-java.svg" alt="logo java" />
+                    <h1 class="head">UX/UI Design</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ducimus reprehenderit saepe rem ratione et.
+                        Explicabo tenetur veritatis iusto necessitatibus dolore
+                        officia doloribus enim eius saepe laudantium cum
+                        maiores, est natus!
+                    </p>
+                </div>
+
+                <div class="box">
+                    <img src="./img/bxl-typescript.svg" alt="logo typescript" />
+                    <h1 class="head">Web Developer</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ducimus reprehenderit saepe rem ratione et.
+                        Explicabo tenetur veritatis iusto necessitatibus dolore
+                        officia doloribus enim eius saepe laudantium cum
+                        maiores, est natus!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <h1 class="head">CONTATO</h3>
+            <div class="container_footer">
+                <a href="http://github.com/Thiago-S-Sousa" target="_blank">
+                    <img src="/img/bxl-github.svg" />
+                    <p>Github</p>
+                </a>
+                <a
+                    href="http://linkedin.com/in/thiago-santos-sousa"
+                    target="_blank"
+                >
+                    <img src="/img/bxl-linkedin-square.svg" />
+                    <p>Linkedin</p>
+                </a>
+                <a
+                    href="http://instagram.com/thiago_s.s"
+                    target="_blank"
+                >
+                    <img src="/img/bxl-instagram-alt.svg" />
+                    <p>Instagram</p>
+                </a>
+            </div>
+        </footer>
     </body>
 </html>
