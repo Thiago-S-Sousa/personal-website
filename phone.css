@@ -1,0 +1,60 @@
+/* navbar */
+
+.navbar li {
+    padding-bottom: 5px;
+}
+
+/* Home */
+
+#home {
+    height: 820px;
+}
+
+#home::before {
+    background: url(./img/back-phone.webp) no-repeat center center/cover;
+}
+
+.headings {
+    font-size: 1.7rem;
+}
+
+/* About */
+
+#pic img {
+    width: 250px;
+    height: 250px;
+}
+
+#intro h2 {
+    font-size: 1.5rem;
+}
+
+/* Portfolio */
+
+#portfolio {
+    background-color: #0c0d3b;
+}
+
+.gallery img {
+    width: 250px;
+    height: 150px;
+    /* border-radius: 10px; */
+}
+
+/* Services */
+
+.box {
+    width: 300px;
+    height: 400px;
+}
+
+/* Footer */
+
+#contact {
+    background-color: #0c0d3b;
+}
+
+.container_footer img {
+    width: 30px;
+    height: 30px;
+}

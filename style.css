@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* Navbar */
 
 .navbar {
@@ -93,6 +96,7 @@
     color: #fff;
     outline: none;
     transition: 0.6s ease;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -120,13 +124,17 @@
     margin-bottom: 50px;
 }
 
+#about p {
+    font-size: 1.1rem;
+}
+
 #pic {
     display: flex;
 }
 
 #pic img {
-    width: 575px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
 
 #intro {
@@ -139,4 +147,129 @@
 #intro h2 {
     font-size: 2rem;
     margin-bottom: 45px;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery {
+    align-items: center;
+    text-align: center;
+}
+
+.gallery a {
+    margin: 20px 10px;
+    text-decoration: none;
+    /* box-shadow: 0 0 5px #fff; */
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.gallery p {
+    color: #fff;
+    font-family: century;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.gallery a:hover {
+    color: #fff;
+    box-shadow: 0 0 20px #fff;
+}
+.gallery img {
+    width: 360px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+/* Skils Section */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 420px;
+    border: 1px solid #000;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, #f6de8c 50%, #fff 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+
+.box:hover {
+    background-position: left bottom;
+    /* color: #fff; */
+    border: none;
+    box-shadow: 0 0 20px #5264aa;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    /* background-color: #fff; */
+    padding: 10px;
+}
+
+/* Footer */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 20px;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.container_footer a {
+    margin: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container_footer img {
+    width: 40px;
+    height: 40px;
 }
