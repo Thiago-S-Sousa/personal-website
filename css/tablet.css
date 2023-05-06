@@ -8,7 +8,7 @@
 /* Home */
 
 #home::before {
-    background: url(img/back-phone.webp) no-repeat center center/cover;
+    background: url(./img/back-phone.webp) no-repeat center center/cover;
 }
 
 /* Head */
