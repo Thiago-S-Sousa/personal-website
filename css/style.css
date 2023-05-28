@@ -94,7 +94,7 @@ html {
 
 .efect {
     color: #ccc;
-    font-size: 2.5rem;
+    font-family: monospace;
     border-right: 4px solid;
     width: 18ch;
     white-space: nowrap;
