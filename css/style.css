@@ -92,6 +92,26 @@ html {
     margin: 40px 0px;
 }
 
+.efect {
+    border-right: 4px solid;
+    width: 24ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(24), blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
 .btn {
     padding: 10px 35px;
     background-color: transparent;
